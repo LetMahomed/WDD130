@@ -8,7 +8,7 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Playfair Display;
+  --heading-font: "Playfair Display";
   --paragraph-font: Lora;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -23,85 +23,84 @@ Fonts are separated by a | */
   --nav-hover-background-color: #E0E6B3;
 }
 
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
-body {
-  background-color: #D1F0F0;
-  max-width: 960px;
+#content {
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
-}
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
-h2 {
-  text-align: center;
-}
-hr {
-  height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
-}
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
-  padding: 0.em;
-}
-.colors {
-  width: 100%;
-  min-width: 350px;
-  margin: 30px auto;
-  text-align: center;
-}
-.colors th {
-  background-color: #999;
-}
-.colors td{
-  width: 25%;
-  height: 3em;
-}
-p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
-}
-nav {
-  background-color: #0499B4;
-  line-height: 2em;
-  text-align: center;
-  font-size: 1.2em;
-}
-nav  {
-  list-style-type: none;
-  display: flex;
 }
 nav a {
-  padding:1em;
-  min-width: 120px;
+  text-align: center;
+  color: #FEFAE0;
   text-decoration: none;
-  padding: 10px;
 }
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+  background-color: #D4A373;
+}
+body {
+  background-color: #BAC893;
+}
+header {
+  background-color: #E0E6B3;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: #FEFAE0;
+  color: #D4A373;
+}
+.book, .join {
+  background-color: #FEFAE0;
+  color: #D4A373;
+  text-decoration: none;
+}
+.book:hover, .join:hover {
+  background-color:#D4A373;
+  color: #E9EDC9;
+}
+.msg {
+  background-color: #E9EDC9 ;
+}
+footer {
+  background-color: #E9EDC9;
+}
+.home-title {
+  color: black;
+}
+.msg p {
+  color: #0499B4;
+}
+.msg h2 {
+  color: #0499B4;
+}
+footer h3{
+  color: #D4A373;
+}
+footer a{
+  color: #FEFAE0;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #BAC893;
+}
+h4{
+  color:#04A6C2;
+}
+.icon{
+  width: 80px;
+}
+.logo{
+  width: 80px;
+}
+#hero-img{
+  width: 100%;
+}
+footer h3 a:hover{
+  text-decoration: underline;
 }
