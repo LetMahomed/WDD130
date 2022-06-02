@@ -2,14 +2,14 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Playfair Display";
-  --paragraph-font: Lora;
+  --heading-font: Exo 2, Indie Flower;
+  --paragraph-font: Shadows Into Light;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #04A6C2;  /* headlines on a white background */ 
@@ -25,12 +25,14 @@ Fonts are separated by a | */
 
 #content {
   max-width: 1600px;
-  margin: 0 auto;
+  margin: auto;
 }
 nav a {
   text-align: center;
-  color: #FEFAE0;
+  color: #82944C;
   text-decoration: none;
+  font-family: "Georgia";
+  padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
   text-align: center;
@@ -47,37 +49,56 @@ main section {
 }
 body {
   background-color: #BAC893;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #E0E6B3;
+  font-family: "Exo 2";
 }
 nav a:hover {
   background-color: #FEFAE0;
-  color: #D4A373;
+  color: #82944C;
 }
 .book, .join {
-  background-color: #FEFAE0;
-  color: #D4A373;
+  background-color: #D4A373;
+  color: #FEFAE0;
   text-decoration: none;
+  font-size: 30px;
+  padding: 15px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover {
-  background-color:#D4A373;
-  color: #E9EDC9;
+  background-color:#E0E6B3;
+  color: white;
 }
 .msg {
   background-color: #E9EDC9 ;
+  padding: 35px;
 }
 footer {
   background-color: #E9EDC9;
+  padding: 25px 50px;
+  margin-top: 0px;
 }
 .home-title {
-  color: black;
+  color: #FAEDCD;
+  font-family: "Indie Flower";
+  text-decoration:solid;
+  font-size: 2em;
+  margin-top: 10px;
 }
 .msg p {
-  color: #0499B4;
+  color: #BAC892;
+  padding-bottom: 15px;
 }
 .msg h2 {
-  color: #0499B4;
+  color: #BAC892;
+  font-family: "Shadows Into Light";
+  text-align: center;
 }
 footer h3{
   color: #D4A373;
@@ -90,7 +111,9 @@ footer a:hover{
   color: #BAC893;
 }
 h4{
-  color:#04A6C2;
+  color: #567010 ;
+  font-family: "Shadows Into Light";
+  font-size: 1.5em;
 }
 .icon{
   width: 80px;
@@ -99,8 +122,39 @@ h4{
   width: 80px;
 }
 #hero-img{
-  width: 100%;
+  width: 60%;
 }
 footer h3 a:hover{
   text-decoration: underline;
+}
+h2 {
+  color: #82944C;
+  text-align: center;
+  margin: 20px;
+}
+.rapids-card{
+  text-align: center;
+  margin: 200px 0;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+  border: 10px solid #D4A373
+}
+.card-img {
+  border: 10px solid #D4A373;
+}
+main section img {
+  box-sizing: border-box;
+}
+.camping-img {
+  border: 10px solid #D4A373
 }
