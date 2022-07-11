@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display&display=swap');
+
+:root {
+  
+  --heading-font: Playfair Display;
+  --paragraph-font: Lora;
+
+  
+  --headline-color-on-white: #04A6C2;  
+  --headline-color-on-color: #FEFAE0 ; 
+  --paragraph-color-on-white: #BAC892;  
+  --paragraph-color-on-color: #FEFAE0 ; 
+  --paragraph-background-color: #0499B4 ;
+  --nav-link-color: #FEFAE0 ;
+  --nav-background-color: #BAC893;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #E0E6B3;
+
+}
+
+.logo {
+    width: 80px;
+    justify-self: center;
+    align-self: center;
+}
+.wireframe{
+    width: 5in;
+}
+#logo_link{
+    width: 80px;
+    justify-self: center;
+    align-self: center;
+}
