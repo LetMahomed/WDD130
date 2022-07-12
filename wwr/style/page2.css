@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Open+Sans&display=swap');
 
 :root {
   
-  --heading-font: Playfair Display;
-  --paragraph-font: Lora;
+  --heading-font: Open Sans;
+  --paragraph-font: Edu NSW ACT Foundation;
 
   
   --headline-color-on-white: #04A6C2;  
@@ -30,4 +30,12 @@
     width: 80px;
     justify-self: center;
     align-self: center;
+}
+header {
+    background-color: #faedcd;
+    font-family: Edu NSW ACT Foundation;
+}
+footer {
+    background-color: #faedcd;
+    font-family: "Open Sans";
 }
