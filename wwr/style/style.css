@@ -131,6 +131,8 @@ h4{
 }
 .logo{
   width: 80px;
+  border-radius: 100%;
+  vertical-align: middle;
 }
 #hero-img{
   width: 100%;
